@@ -14,7 +14,7 @@ const scanInInvalidPayload = () => {
 
 const invalidGiftCardPayload = () => {
     const invalidCardPayload = {
-        "order_id":"@!£","user":"test.user"
+        "order_id":"@!£","user":"tester.user"
     };
     return invalidCardPayload;
 };
@@ -27,7 +27,7 @@ const addNotePayload = () => {
 
 const missRefundPayload = () => {
     const missedRefundOrderPayload = {
-        "refundType":"MISC","refundAmount":"3.40","orderId":"250000003","user":"test.csr","items":["5020412399764"]
+        "refundType":"MISC","refundAmount":"30.40","orderId":"900000003","user":"testuser","items":["123456"]
     };
     return missedRefundOrderPayload;
 };
