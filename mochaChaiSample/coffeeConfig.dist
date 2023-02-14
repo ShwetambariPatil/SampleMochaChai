@@ -1,0 +1,3 @@
+module.exports = {
+  coffeeApiUrl: '@@testing/mochaChaiSample/coffeeApiUrl@@',
+}
